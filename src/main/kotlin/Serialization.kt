@@ -12,10 +12,3 @@ fun Application.configureSerialization() {
         json()
     }
 }
-
-@Serializable
-data class Item(
-    val message: String,
-)
-
-
