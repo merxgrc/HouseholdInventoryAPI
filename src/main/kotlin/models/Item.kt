@@ -3,6 +3,8 @@ package com.mrx.inventory.models
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class HealthStatus(
-    val message: String
+data class Item(
+    val name: String,
+    val quantity: Int,
+    val unit: String,
 )
